@@ -1,8 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  background-color: rgb(198, 199, 158);
+
+  background-color: rgb(129, 70, 232);
 }
 
 
@@ -11,14 +11,12 @@ body {
 }
 
 .encabezado h1 {
-  background-color: rgb(70, 70, 183);
-  width: 500px;
+  background-color: rgb(103, 51, 51);
   padding: 10px;
   border-radius: 20px;
   font-size: 40px;
   text-align: center;
-  margin: 20px;
-
+  margin: 50px;
 }
 
 img {
@@ -36,37 +34,49 @@ img {
 
 .sobre-mi p {
   font-size: 20px;
-  background-color: rgb(74, 5, 139);
-  width: 900px;
+  background-color: rgb(50, 117, 119);
+  width: 500px;
   border-radius: 10px;
-
+  padding: 0px;
 }
 
 .sobre-mi h3 {
   margin: 20px;
+  font-size: 30px;
+  background-color: rgb(32, 84, 60);
+  border-radius: 10px;
 }
 
 .mi-experiencia h3 {
   font-size: 30px;
+  text-align: center;
+  background-color: rgb(89, 220, 220);
+  border-radius: 10px;
+  margin-top: 30px;
 }
 
 .mi-experiencia p {
-  background-color: brown;
-  text-align: center;
+  background-color: rgb(172, 145, 96);
+
   font-size: 20px;
   margin: 10px;
   border-radius: 20px;
   width: 800px;
+  padding: 30px;
 }
 
 .mis-hobbies h3 {
   font-size: 30px;
+  text-align: center;
+  background-color: rgb(247, 190, 150);
+  border-radius: 40px;
 }
 
 .mis-hobbies p {
-  background-color: chocolate;
+  background-color: rgb(247, 190, 150);
   font-size: 20px;
   margin: 10px;
-  border-radius: 20px;
+  border-radius: 40px;
   width: 500px;
+  padding: 20px;
 }
