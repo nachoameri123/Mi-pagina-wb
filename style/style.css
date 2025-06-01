@@ -17,19 +17,21 @@ body {
   font-size: 40px;
   text-align: center;
   margin: 50px;
+  box-shadow: 4px 6px 9px -3px rgba(0, 0, 0, 0.75);
 }
 
 img {
   width: 200px;
   margin-left: 10px;
-  height: 200px;
-  border-radius: 50%;
+  height: 300px;
+  border-radius: 10%;
   object-fit: cover;
 }
 
 .sobre-mi {
   font-size: 30px;
-  display: flex
+  height: 100vh;
+  display: flex;
 }
 
 .sobre-mi p {
@@ -37,7 +39,9 @@ img {
   background-color: rgb(50, 117, 119);
   width: 500px;
   border-radius: 10px;
-  padding: 0px;
+  padding: 20px;
+  margin-bottom: 550px;
+
 }
 
 .sobre-mi h3 {
@@ -45,6 +49,13 @@ img {
   font-size: 30px;
   background-color: rgb(32, 84, 60);
   border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 600px;
+  box-shadow: 4px 6px 9px -3px rgba(0, 0, 0, 0.75);
+}
+
+.mi-experiencia {
+  height: 100vh;
 }
 
 .mi-experiencia h3 {
@@ -53,6 +64,8 @@ img {
   background-color: rgb(89, 220, 220);
   border-radius: 10px;
   margin-top: 30px;
+  box-shadow: 4px 6px 9px -3px rgba(0, 0, 0, 0.75);
+
 }
 
 .mi-experiencia p {
@@ -63,6 +76,12 @@ img {
   border-radius: 20px;
   width: 800px;
   padding: 30px;
+  margin-left: 300px;
+  margin-top: 30px;
+}
+
+.mis-hobbies {
+  height: 100vh;
 }
 
 .mis-hobbies h3 {
@@ -70,6 +89,8 @@ img {
   text-align: center;
   background-color: rgb(247, 190, 150);
   border-radius: 40px;
+  box-shadow: 4px 6px 9px -3px rgba(0, 0, 0, 0.75);
+
 }
 
 .mis-hobbies p {
@@ -79,4 +100,24 @@ img {
   border-radius: 40px;
   width: 500px;
   padding: 20px;
+  margin-left: 500px;
+  margin-top: 30px;
+}
+
+.contact {
+  height: 50vh;
+  background-color: rgba(51, 50, 50, 0.988);
+}
+
+.contact button :hover {
+  color: red;
+  transition: color 1.0s ease;
+  width: 10px;
+  margin: 50px;
+
+}
+
+.contact button a {
+  font-size: 20px;
+
 }
