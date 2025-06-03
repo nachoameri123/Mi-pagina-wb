@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 
-  background-color: rgb(129, 70, 232);
+
 }
 
 
@@ -30,18 +30,18 @@ img {
 
 .sobre-mi {
   font-size: 30px;
-  height: 100vh;
+  height: 70vh;
   display: flex;
 }
 
 .sobre-mi p {
   font-size: 20px;
   background-color: rgb(50, 117, 119);
-  width: 500px;
+  width: 900px;
   border-radius: 10px;
-  padding: 20px;
+  padding: 120px;
   margin-bottom: 550px;
-
+  margin-top: 20px;
 }
 
 .sobre-mi h3 {
@@ -49,13 +49,13 @@ img {
   font-size: 30px;
   background-color: rgb(32, 84, 60);
   border-radius: 10px;
-  padding: 20px;
+  padding: 35px;
   margin-bottom: 600px;
   box-shadow: 4px 6px 9px -3px rgba(0, 0, 0, 0.75);
 }
 
 .mi-experiencia {
-  height: 100vh;
+  height: 80vh;
 }
 
 .mi-experiencia h3 {
@@ -81,7 +81,7 @@ img {
 }
 
 .mis-hobbies {
-  height: 100vh;
+  height: 50vh;
 }
 
 .mis-hobbies h3 {
@@ -105,7 +105,7 @@ img {
 }
 
 .contact {
-  height: 50vh;
+  height: 15vh;
   background-color: rgba(51, 50, 50, 0.988);
 }
 
@@ -117,7 +117,12 @@ img {
 
 }
 
-.contact button a {
-  font-size: 20px;
+.contact img {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+}
 
+.contact p {
+  margin-left: 15px;
 }
